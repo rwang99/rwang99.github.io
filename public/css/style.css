@@ -40,6 +40,7 @@ a:hover {
 }
 
 .panel1 {
+  background-color:rgb(42,68,83);
   background: url("background1.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -53,17 +54,47 @@ a:hover {
 }
 
 .panel-dark {
-  background-color: #EAEAEA;
+  background-color: #EFEFEF;
   color: #43464B;
   padding: 5% 20%;
 }
 
 .footer{
   background-color:rgb(42, 68, 83);
+  background: url("background1.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   padding: 5% 5%;
 }
 .fredericka {
   font-family: 'Fredericka the Great','Lobster Two', 'Raleway', Helvetica, sans-serif;
+}
+
+.icons {
+  color: white; 
+  padding-top: 8%;
+  padding-bottom: 2%; 
+  font-size: 30px; 
+  letter-spacing: 6px;
+}
+
+
+.link {
+  color: white;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.link:hover {
+  color: #00A6FB;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar {
