@@ -66,21 +66,21 @@ a:hover {
   background-attachment: fixed;
   padding: 5% 5%;
 }
+
 .fredericka {
   font-family: 'Fredericka the Great','Lobster Two', 'Raleway', Helvetica, sans-serif;
 }
 
 .icons {
   color: white; 
-  padding-top: 8%;
-  padding-bottom: 2%; 
   font-size: 30px; 
-  letter-spacing: 6px;
+  padding: 8% 0em 2%;
 }
 
 /*Link is for individual icons*/
 .link {
   color: white;
+  margin: 0em .5em;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
@@ -89,12 +89,24 @@ a:hover {
 }
 
 .link:hover {
-  color: #00A6FB;
+  color: #20C6FF;
+  /*color: yellow;*/
+  margin: 0em .5em;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.display-card {
+  width: 80%;
+  height: 200px;
+  /*padding: 10px;*/
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar {
