@@ -6,30 +6,28 @@
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>		<!-- jquery -->
 
 
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> <!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/> <!-- font awesome icons -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> <!-- bootstrap js -->
 
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css"> <!-- external style sheet -->
 
-	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>
-
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"/>  <!-- google fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-
 	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
-	<link rel="shortcut icon" href="/css/favicon.png" />
+	<link rel="shortcut icon" href="/css/favicon.png" /> <!-- favicon -->
 
 
 	<title>Richard Wang</title>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="115">
 	<div class="container-fluid"> <!-- responive container -->
 		<div id="home" class = "panel1">
 
-			<nav class = "navbar navbar-default navbar-fixed-top dark">
+			<nav class = "navbar navbar-default navbar-fixed-top dark">  <!-- navbar -->
 				<div class="navbar-header">
 					<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 						<span class="sr-only">Toggle navigation</span>
@@ -76,18 +74,16 @@
 
 
 		<div id = "portfolio" class="panel-dark">
-			<h4>
-				content here:
-
-				list "minipanels" showcasing work
-			</h4>
-
 			<div id = "display-card">
 				<div id = "front"><a class="flipper" href="javascript:void(0)">Not seeing anything? Click me to fix!<a></div>
-				<div id = "back1">
-					<img class = 'img-card' src="css/testudo.jpg" alt="Testudo" style="height:100%; float=left">
-
-					UMD
+				<div id = "back1" class="row">
+					<div class="col-md-3">
+						<img class = 'img-card' src="css/weatherman.png" alt="Weatherman demo" style="height:100%; float=left">
+					</div>
+					<div class= "card-heading">Weatherman</div>
+					<div class= "card-subheading">A chrome extension to automatically display weather next to dates</div>
+					<hr>
+					Ever wonder if it was going to rain on the day of a sports game or concert you wanted to go to? Say no more!
 				</div>
 			</div>
 			
@@ -125,12 +121,30 @@
 				</h4>
 			</div>
 		</div>
-		<div class = "dark footer center">
-			This is the footer! Hurrah! <br><br>
+		<div class = "dark footer row">
+			<div class = "col-md-4">
+				<h4 style = "text-decoration: underline; color:white;"> Missed something?</h4>
+				<ul style = "list-style-type: none; padding:0;">
+					<a class="smooth" href="#home">Top of the page</a><br>
+					<a class="smooth" href="#about">About</a><br>
+					<a class="smooth" href="#portfolio">Portfolio</a><br>
+					<a class="smooth" href="#contact">Contact</a>
+				</ul>
+			</div>
 
-			Links to all sections of the page on the left. <br>
-			About the site to the right.<br>
-			Github link to the page also to the right.
+			<div class = "col-md-4">
+				<br>
+				<a href="https://www.linkedin.com/in/rkwang/" target="_blank"><i class="link fa fa-linkedin"></i>rkwang</a><br>
+				<a href="mailto:richard.w.phs@gmail.com"><i class="link fa fa-envelope"></i>richard.w.phs@gmail.com</a><br>
+            	<a href="https://github.com/rwang99" target="_blank"><i class="link fa fa-github"></i>rwang99</a>
+            </div>
+
+            <div class = "col-md-4">
+            	<br>
+				Site made by Richard Wang<br><br>
+				For documentation the code behind it please check out 
+				<a href="https://github.com/rwang99/PersonalWebsite">https://github.com/rwang99/PersonalWebsite</a>
+			</div>
 		</div>
 	</div>
 
