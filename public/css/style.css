@@ -38,6 +38,7 @@ a:hover {
 }
 
 .panel1 {
+  min-height: 100%;
   background-color:rgb(42,68,83);
   background: url("background1.jpg") no-repeat;
   background-size: cover;
@@ -170,6 +171,7 @@ a:hover {
   border-right: 2px solid rgba(0,0,0,.2);
   max-height: 200px;
   height: 200px;
+  padding: 0px;
 }
 
 .navbar {
@@ -273,4 +275,11 @@ a:hover {
   font-family: 'Lobster Two', 'Raleway', Helvetica, sans-serif;
   font-size: 50px;
   padding-top: 10%;
+}
+
+.heading{
+  font-family: 'Lobster Two', 'Raleway', Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px 10px 10px;
 }
