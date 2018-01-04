@@ -3,6 +3,8 @@ $(function () {
 		var $nav = $(".navbar-fixed-top");
     	$nav.toggleClass('scrolled', $(this).scrollTop() > 300);	//Gives solid background to navbar after 300px
 		
+		var $down = $(".down-arrow");
+		$down.toggleClass('scrolled', $(this).scrollTop() > 10);
 
 		var $elem = $('#display-card');
 		$elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);

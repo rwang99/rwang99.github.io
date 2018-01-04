@@ -38,9 +38,9 @@ a:hover {
 }
 
 .panel1 {
-  min-height: 100%;
   background-color:rgb(42,68,83);
   background: url("background1.jpg") no-repeat;
+  height:100vh;
   background-size: cover;
   background-attachment: fixed;
   padding: 40px 0px;
@@ -90,7 +90,13 @@ a:hover {
 .icons {
   color: white; 
   font-size: 30px; 
-  padding: 8% 0em 2%;
+  padding: 0 0em 0;
+  position: absolute;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Link is for individual icons*/
@@ -107,12 +113,56 @@ a:hover {
 .link:hover {
   color: #20C6FF;
   /*color: yellow;*/
-  margin: 0em .5em;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.down-arrow {
+  position: absolute;
+  bottom: 3vh;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("down-arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40px;
+  width: 80px;
+
+   -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.down-arrow:hover {
+  height: 50px;
+  width: 90px;
+  bottom: 1.5vh;
+
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.down-arrow.scrolled {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 #display-card {
