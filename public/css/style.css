@@ -89,14 +89,16 @@ a:hover {
 
 .icons {
   color: white; 
-  font-size: 30px; 
+  margin: 35vh 0 8vh;
+  font-size: 4vh;
+/*  font-size: 30px; 
   padding: 0 0em 0;
   position: absolute;
   bottom: 10vh;
   left: 0;
   right: 0;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 /*Link is for individual icons*/
@@ -121,20 +123,25 @@ a:hover {
 }
 
 .down-arrow {
-  position: absolute;
+ /* position: absolute;
   bottom: 3vh;
   left: 0;
   right: 0;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
+  position: relative;
+
   background-image: url("down-arrow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 40px;
-  width: 80px;
+  height: 5vh;
+  width: 10vh;
+  margin: 5vh 0vh 10vh;
+  margin-left: auto;
+  margin-right: auto;
 
-   -webkit-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -142,9 +149,9 @@ a:hover {
 }
 
 .down-arrow:hover {
-  height: 50px;
-  width: 90px;
-  bottom: 1.5vh;
+  height: 6vh;
+  width: 11vh;
+  margin-top: 7vh;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -323,8 +330,7 @@ a:hover {
 
 .title {
   font-family: 'Lobster Two', 'Raleway', Helvetica, sans-serif;
-  font-size: 50px;
-  padding-top: 10%;
+  padding-top: 15vh;
 }
 
 .heading{
@@ -335,7 +341,14 @@ a:hover {
 }
 
 .cartoon{
-  position:relative;
+  position: relative;
   margin: 20px 20px 0px;
   height: 400px;
+}
+
+.relative{
+  position: relative !important;
+  height:auto;
+  width: auto;
+
 }
