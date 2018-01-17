@@ -9,4 +9,10 @@ How it works
 - Front-end made with Bootstrap and custom HTMl/CSS. 
 - Mostly responsive (with exception to the cards at the moment), working to get 100% responsive.
 
+Cool features I experimented with:
+- Flipping cards!
+- Smooth scroll(try clicking on an item in the navbar)
+- Auto color-changing navbar: turns solid after scrolling away from top
+- Full screen responsive first page with disappearing down arrow
+
 <a href="https://unsplash.com/photos/HbhJyWnE9Oo">Header image by Michał Parzuchowski from Unsplash</a>
