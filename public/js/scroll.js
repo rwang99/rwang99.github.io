@@ -8,6 +8,8 @@ $(function () {
 
 		var $elem = $('#display-card');
 		$elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);
+		var $elem = $('#display-card2');
+		$elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);
     });
 
 	function checkAnimation() {

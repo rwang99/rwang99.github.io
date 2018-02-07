@@ -205,14 +205,15 @@ a:hover {
 
 #display-card #back1{
   transform: rotateX(180deg);
-  display: table;
+  /* display: table; */
+  margin-top: -200px;
   z-index: 3;
   background-color: white;
   line-height: 130%;
 }
 
 #display-card #front, #display-card #back1 {
-  position: absolute;
+  position: relative;
   height: 100%;
   width: 100%;
   transform-style: preserve-3d;
@@ -227,8 +228,10 @@ a:hover {
   border-bottom-left-radius: 5px;
   border-right: 2px solid rgba(0,0,0,.2);
   max-height: 200px;
-  height: 200px;
+  /* height: 200px; */
   padding: 0px;
+  padding-right: 5px;
+  position: relative;
 }
 
 .navbar {
