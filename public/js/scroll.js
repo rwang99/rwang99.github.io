@@ -6,22 +6,22 @@ $(function () {
 		var $down = $(".down-arrow");
 		$down.toggleClass('scrolled', $(this).scrollTop() > 10);
 
-		var $elem = $('#display-card');
-		$elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);
-		var $elem = $('#display-card2');
-		$elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);
+		// var $elem = $('#display-card');
+		// $elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);
+		// var $elem = $('#display-card2');
+		// $elem.toggleClass('flip', $(this).scrollTop()+$(window).height() - 50 > $elem.offset().top);
     });
 
-	function checkAnimation() {
+	// function checkAnimation() {
 	    
-	    console.log($elem);
-	    // If the animation has already been started
-	    if ($elem.hasClass('flip')) return;
+	//     console.log($elem);
+	//     // If the animation has already been started
+	//     if ($elem.hasClass('flip')) return;
 
-	    if (isElementInViewport($elem)) {
-	        $elem.addClass('flip');
-	    }
-	}
+	//     if (isElementInViewport($elem)) {
+	//         $elem.addClass('flip');
+	//     }
+	// }
 
 	$(document).ready(function(){
   	// Get height of header
@@ -37,9 +37,9 @@ $(function () {
 		e.preventDefault();			// Prevents automatic switching
 	});
 
-  	$('.flipper').click(function(){
-  		$("#display-card").toggleClass('flip');
-  	});
+  	// $('.flipper').click(function(){
+  	// 	$("#display-card").toggleClass('flip');
+  	// });
 
 
   });

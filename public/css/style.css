@@ -40,7 +40,7 @@ a:hover {
 .panel1 {
   background-color:rgb(42,68,83);
   background: url("background1.jpg") no-repeat;
-  height:100vh;
+  height: 100vh;
   background-size: cover;
   background-attachment: fixed;
   padding: 40px 0px;
@@ -75,12 +75,14 @@ a:hover {
   font-size: 20px;
   font-style: bold;
   color: #43464B;
-  padding-top: 5px;
+  padding: 8px 0px;
 }
 
 .card-subheading{
   font-size: 15px;
   font-style: italic;
+  padding: 0px;
+  margin: 0px;
 }
 
 .fredericka {
@@ -172,65 +174,27 @@ a:hover {
   transition: all .4s ease-in-out;
 }
 
-#display-card {
-  width: 100%;
-  height: 200px;
-  perspective: 600px;
-  /*padding: 10px;*/
 
+.display-card {
   position: relative;
-  margin: auto;
-  z-index: 1;
-}
-
-#display-card.flip #front {
-  transform: rotateX(180deg);
-  transition-duration: .4s;
-}
-#display-card.flip #back1 {
-  transform: rotateX(360deg);
-  transition-duration: .4s;
-}
-
-#display-card #front{
-  transform:rotateX(0deg);
-  background-color: #C0C0C0;
-  overflow: hidden;
-  z-index: 2;
-  color: #E0E0E0;
-  text-align: center;
-  line-height: 200px;
-
-}
-
-#display-card #back1{
-  transform: rotateX(180deg);
-  /* display: table; */
-  margin-top: -200px;
-  z-index: 3;
   background-color: white;
   line-height: 130%;
-}
-
-#display-card #front, #display-card #back1 {
-  position: relative;
   height: 100%;
   width: 100%;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  transition-duration: .4s;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
+  padding: 5px;
+  margin: 30px auto;
 }
 
 .img-card{
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border-right: 2px solid rgba(0,0,0,.2);
-  max-height: 200px;
-  /* height: 200px; */
+  height: auto;
+  max-width: 100%;
   padding: 0px;
-  padding-right: 5px;
+  padding-right: 2px;
   position: relative;
 }
 
