@@ -327,3 +327,7 @@ a:hover {
   width: auto;
 
 }
+
+.overflow{
+  overflow-x: hidden !important;
+}
