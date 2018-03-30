@@ -1,3 +1,9 @@
+@media only screen and (max-width: 718px) {
+    .img-card {
+        display: none;
+    }
+}
+
 body {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   background-size: 100% auto;
@@ -311,8 +317,8 @@ a:hover {
 .cartoon{
   position: relative;
   margin: 20px 20px 0px;
-  height: 50vh;
-  width: auto;
+  height: auto;
+  max-width: 65%;
 }
 
 .relative{
