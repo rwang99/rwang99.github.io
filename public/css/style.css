@@ -4,6 +4,19 @@
     }
 }
 
+/* Colors */
+.font-heading {
+  color:#00A6FB;
+}
+/*        */
+
+a { color: inherit; } 
+
+a:hover {
+  color: inherit;
+  text-decoration:  inherit;
+}
+
 body {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   background-size: 100% auto;
@@ -11,7 +24,6 @@ body {
   padding: 0;
   overflow-x: hidden !important;
 }
-
 
 p {
   font-family: 'Roboto', sans-serif;
@@ -21,18 +33,16 @@ p {
   letter-spacing: 0.2px;
 }
 
-a { color: inherit; } 
-
-a:hover {
-  color: inherit;
-  text-decoration:  inherit;
+.bold{
+  font-weight: bold;
 }
 
 .card-heading{
   font-size: 20px;
   font-style: bold;
   color: #43464B;
-  padding: 8px 0px;
+  padding: 0px 0px;
+  margin: 9px 0;
 }
 
 .card-subheading{
@@ -173,6 +183,15 @@ a:hover {
   position: relative;
 }
 
+.light {
+  color: #43464B;
+}
+
+.line-margin{
+  margin: 10px 0px;
+  line-height: 2em;
+}
+
 /*Link is for individual icons*/
 .link {
   color: white;
@@ -192,10 +211,6 @@ a:hover {
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
-}
-
-.light {
-  color: #43464B;
 }
 
 .navbar {
@@ -226,7 +241,7 @@ a:hover {
 }
 
 .navbar-default .navbar-toggle .icon-bar{
-  background-color: yellow;
+  background-color: #00A6FB;
 }
 
 .navbar-default .navbar-brand{
@@ -293,6 +308,17 @@ a:hover {
   margin: 10px;
 }
 
+.other-label{
+  margin: 9px 3px 9px 0;
+  /* font-size: .8rem; */
+  /* line-height: 4em; */
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #FF9933;
+  border: 1px solid #FF9933;
+  background: 0 0;
+}
+
 .overflow{
   overflow-x: hidden !important;
 }
@@ -318,14 +344,50 @@ a:hover {
   padding: 5% 20%;
 }
 
+/* .project {
+  border-radius: 5px;
+  margin: 30px auto;
+}
+
+.project :hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+} */
+
 .relative{
   position: relative !important;
   height:auto;
   width: auto;
+}
 
+.tech-label{
+  margin: 9px 3px 9px 0;
+  /* font-size: .8rem; */
+  /* line-height: 4em; */
+  padding: 2px 7px;
+  border-radius: 3px;
+  color: #00A6FB;
+  border: 1px solid #00A6FB;
+  background: 0 0;
 }
 
 .title {
   font-family: 'Bad Script', 'Raleway', Helvetica, sans-serif;
   padding-top: 15vh;
+}
+
+
+#portfolio a:hover {
+  font-weight: bold;
+  color: #00A6FB;
+  /* -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out; */
 }

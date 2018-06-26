@@ -20,7 +20,6 @@
 
 	<link rel="shortcut icon" href="public/css/favicon.png" /> <!-- favicon -->
 
-
 	<title>Richard Wang</title>
 </head>
 
@@ -73,7 +72,7 @@
 
 				<h1 class="heading">I am a...</h1>
 
-				<h3 style="color:#00A6FB"> Full Stack Web Developer </h3>
+				<h3 class = "font-heading"> Full Stack Web Developer </h3>
 				
 				<h4>Technical Languages</h4>
 				Java, C, Python, Javascript, HTML/CSS
@@ -85,7 +84,7 @@
 				<br>
 				<br>
 
-				<h3 style="color:#00A6FB"> Student at University of Maryland: College Park </h3>
+				<h3 class = "font-heading"> Student at University of Maryland: College Park </h3>
 				<h4>
 					<span>B.S. Computer Science '21, Honors College </span>
 				</h4>
@@ -95,7 +94,7 @@
 
 
 		<div id = "experience" class="panel-dark">
-			<h3 class = "center" style="color:#00A6FB">Work Experience</h3>
+			<h3 class = "center font-heading">Work Experience</h3>
 
 			<div class = "display-card">
 				<a href="https://www.sandc.com/" target="_blank">
@@ -154,7 +153,7 @@
 								<li>Compared contact-based and distance-based energy functions in producing the strongest folds of a protein using the 
 									Hydrophobic-Polar model in a 3D cubic lattice.
 								</li>
-								<li>Named Regeneron Science Talent Search Scholar in connection with this research</li>
+								<li class = "bold">🏆Named Regeneron Science Talent Search Scholar in connection with this research🏆</li>
 							</ul>
 						</div>
 
@@ -165,8 +164,55 @@
 		</div>
 
 		<div id="portfolio" class = "panel-light">
-			<h3 class = "center" style="color:#00A6FB"> Selected Side Projects </h3>
+			<!-- <h3 class = "center font-heading"> Selected Side Projects </h3> -->
 
+			<div class = "row">
+				<h3 class = "col-md-3 font-heading" style = "margin: 9px 0;">Selected Side Projects</h3>
+				<div class = "col-md-9">
+					<div class = "card-heading">
+						<a href = "https://github.com/bephrem1/impulse" target="_blank">Impulse <i class = "fa fa-angle-double-right"></i></a>
+					</div>
+					<div class = "card-subheading">A platform that mitigates impulsive spending and brings consciousness to consumerism</div>
+					<hr style="margin: 10px 0px;">
+					A web app and chrome extension combo that extends the online purchasing process and prompts the user to think about
+					whether if they are making an impulse purchase before making that purchase, while providing a data dashboard for long-term 
+					analysis on their impulsive habits.
+
+					<div class = "line-margin">
+						<span class = "bold other-label">🏆Winner of Capital One Best Financial Hack Award at Bitcamp 2018.🏆</span><br>
+						<span class = "tech-label">Javascript</span>
+						<span class = "tech-label">Node.js</span>
+						<span class = "tech-label">MongoDB</span>
+						<span class = "tech-label">Express</span>
+						<span class = "tech-label">EJS</span>
+						<span class = "tech-label">Bootstrap</span>
+						<span class = "tech-label">HTML/CSS</span>
+					</div>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-md-9 offset-md-3">
+					<div class = "card-heading">
+						<a href = "https://github.com/rwang99/Airbnb-Optimization" target="_blank">Airbnb Optimization <i class = "fa fa-angle-double-right"></i></a>
+					</div>
+					<div class = "card-subheading">A dynamic web app providing data analysis on Airbnb listings in San Francisco</div>
+					<hr style="margin: 10px 0px;">
+					First web app project. Reads public data from csv format, stores into MongoDB, and outputs data analysis to help Airbnb users maximize 
+					profits on their listings and pick the right house location. Deployed live to heroku at airbnb-rwang.herokuapp.com
+					Uses Spring MVC and Java for back-end, HTML/CSS/Bootstrap for front-end. Part
+					of the final round application for the Capital One Software Engineering Summit.
+
+					<div class = "line-margin">
+						<span class = "tech-label">Java</span>
+						<span class = "tech-label">Spring MVC</span>
+						<span class = "tech-label">MongoDB</span>
+						<span class = "tech-label">HTML/CSS</span>
+						<span class = "tech-label">Bootstrap</span>
+						<span class = "tech-label">Heroku</span>
+					</div>
+				</div>
+			</div>
 			<div class = "display-card">
 				<a href="https://github.com/bephrem1/impulse" target="_blank">
 					<div class = "row" style="padding: 0px;">
@@ -180,8 +226,14 @@
 							A web app and chrome extension combo that extends the online purchasing process and prompts the user to think about
 							whether if they are making an impulse purchase before making that purchase, while providing a data dashboard for long-term 
 							analysis on their impulsive habits. MongoDB, Express, EJS, Node.js stack for web app, JS for chrome extension.
-
-							Winner of Capital One Best Financial Hack Award at Bitcamp 2018.
+							<div class = "line-margin">
+								<span class = "bold other-label">🏆Winner of Capital One Best Financial Hack Award at Bitcamp 2018.🏆</span><br>
+								<span class = "tech-label">Javascript</span>
+								<span class = "tech-label">Node.js</span>
+								<span class = "tech-label">MongoDB</span>
+								<span class = "tech-label">Express</span>
+								<span class = "tech-label">EJS</span>
+							</div>	
 						</div>
 
 					</div>
@@ -221,8 +273,6 @@
 							Financial chatbot that provides personalized spending advice, activity analysis, and data visualization
 							while also providing basic transactional/banking functionality. Javascript back-end with Node.js; Dialogflow 
 							front-end for natural-language processing and intent recognition. 
-
-							Made at the Capital One Software Engineering Summit Hackathon.
 						</div>
 
 					</div>
