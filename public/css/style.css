@@ -344,6 +344,15 @@ p {
   padding: 5% 20%;
 }
 
+.portfolio-img{
+  border-radius: 5px;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  position: relative;
+  vertical-align: middle;
+  margin-top: 9px;
+}
 /* .project {
   border-radius: 5px;
   margin: 30px auto;

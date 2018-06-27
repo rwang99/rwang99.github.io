@@ -15,4 +15,7 @@ Cool features I experimented with:
 - Full screen responsive first page with disappearing down arrow
 - ~~Flipping cards!~~ (removed as they were not very responsive or modular)
 
+Ideas for the future that I may implement:
+- Color coding technologies in portfolio section, allow a quicksort/filter based on projects that use a certain technology
+- Thumbnail slideshow on portfolio section to view different pages of the site, views, etc.
 <a href="https://unsplash.com/photos/HbhJyWnE9Oo">Header image by Michał Parzuchowski from Unsplash</a>
