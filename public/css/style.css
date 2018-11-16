@@ -339,7 +339,7 @@ p {
 }
 
 .panel-dark {
-  background-color: #EFEFEF;
+  background-color: rgb(245, 245, 245);
   color: #43464B;
   padding: 5% 20%;
 }
