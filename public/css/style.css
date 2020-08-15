@@ -33,6 +33,14 @@ p {
   letter-spacing: 0.2px;
 }
 
+.banner-img{
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+  position: relative;
+  vertical-align: middle;
+}
+
 .bold{
   font-weight: bold;
 }
@@ -330,6 +338,14 @@ p {
   background-size: cover;
   background-attachment: fixed;
   padding: 40px 0px;
+}
+
+.panel-banner {
+  background: url("terp-tank.jpg") no-repeat;
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0px 0px;
 }
 
 .panel-light {
