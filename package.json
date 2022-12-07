@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.4.1",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "jquery": "^3.5.0"
   },
   "devDependencies": {},
